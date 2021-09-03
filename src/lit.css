@@ -52,22 +52,9 @@ pre {
     width: 100%;
 }
 
-.card,
-pre {
-    padding: 1em;
-    border: solid var(--light);
-}
-
 a:hover,
 .btn:hover {
     opacity: .6;
-}
-
-.c {
-    max-width: 60em;
-    padding: 1em;
-    margin: auto;
-    font: 1em/1.6 var(--font);
 }
 
 h3 {
