@@ -1,7 +1,7 @@
 :root {
-    --font: nunito;
-    --primary-color: #fa0;
-    --light: #eee;
+    --f: nunito;
+    --p: #fa0;
+    --l: #eee;
 }
 
 * {
@@ -53,44 +53,44 @@ pre {
 }
 
 a:hover,
-.btn:hover {
+.bn:hover {
     opacity: .6;
 }
 
 h3 {
-    font: 100 2em var(--font);
+    font: 100 2em var(--f);
 }
 
 h2 {
-    font: 100 2.2em var(--font);
+    font: 100 2.2em var(--f);
 }
 
 h1 {
-    font: 100 2.5em var(--font);
+    font: 100 2.5em var(--f);
 }
 
 a {
-    color: var(--primary-color);
+    color: var(--p);
     text-decoration: none;
 }
 
-.btn.primary {
+.bn.p {
     color: white;
-    background: var(--primary-color);
-    border: solid var(--primary-color);
+    background: var(--p);
+    border: solid var(--p);
 }
 
 td,
-th {
+th {primary
     padding: 1em;
     text-align: left;
-    border-bottom: solid var(--light);
+    border-bottom: solid var(--l);
 }
 
-.btn {
+.bn {
     padding: 1em;
     text-transform: uppercase;
     background: white;
     border: solid;
-    font: .7em var(--font);
+    font: .7em var(--f);
 }
